@@ -1,0 +1,60 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+.List{
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid #dadce0;
+    border-radius: 20px;
+    background-color: white;
+    padding: 15px 0;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.List img {
+    margin-left: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    width: 100px;
+    height: 100px;
+    object-fit : cover
+}
+.List__container {
+    padding-left: 35px;
+}
+
+.List__container p {
+    margin-bottom: 5px;
+}
+
+.Twitter__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.Twitter-logo {
+    background-image: url('../../images/twitter-icon.png');
+    width: 20px;
+    height: 20px;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+#Twitter {
+    color: #1da1f2;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+
