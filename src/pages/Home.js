@@ -12,7 +12,7 @@ function Home () {
                     <img src={ConfLogo} alt="Conf Logo" />
                     <h1>PRINT YOUR BADGES</h1>
                     <p>The easiest way to manage your conference</p>
-                    <button className="btn btn-primary"><Link to="/badges">Start Now</Link></button>
+                    <Link className="btn btn-primary" to="/badges">Start Now</Link>
                 </div>
                 <div className="Img__container col-6">
                     <img src={PlatziConfLogo} alt="PlatziConf Logo" />
